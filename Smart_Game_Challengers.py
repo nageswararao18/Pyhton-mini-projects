@@ -5,7 +5,7 @@ attempts=0
 while True:
     num=int(input("Please enter the number between 1 to 100 "))
     if num<1 or num>100:
-        print("Enter the number between 1 to 20")
+        print("Enter the number between 1 to 100")
         continue
     attempts=attempts+1
     if num==fix_number:
